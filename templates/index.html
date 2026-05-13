@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Steven Aziavula builds scalable backend systems, product-ready web applications, and execution-focused software experiences.">
+<meta name="theme-color" content="#08111f">
+<meta property="og:title" content="Steven Aziavula | Software Engineer">
+<meta property="og:description" content="Backend-focused software engineer building scalable systems and polished product experiences.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="{{ url_for('static', filename='images/profile.jpg') }}">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Steven Aziavula | Software Engineer">
+<meta name="twitter:description" content="Backend-focused software engineer building scalable systems and polished product experiences.">
+<meta name="twitter:image" content="{{ url_for('static', filename='images/profile.jpg') }}">
+<title>Steven Aziavula | Software Engineer</title>
+<link rel="icon" type="image/svg+xml" href="{{ url_for('static', filename='images/favicon.svg') }}">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/tsparticles@2/tsparticles.bundle.min.js"></script>
+<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Steven Aziavula",
+  "jobTitle": "Software Engineer",
+  "email": "mailto:stevenaziavula14@gmail.com",
+  "telephone": "+254702284867",
+  "image": "{{ url_for('static', filename='images/profile.jpg') }}",
+  "knowsAbout": ["Python", "Flask", "JavaScript", "REST APIs", "SQL", "Backend Systems"]
+}
+</script>
+</head>
+<body>
+<div class="page-glow page-glow-left"></div>
+<div class="page-glow page-glow-right"></div>
+<div class="scroll-progress" aria-hidden="true"></div>
+
+<nav class="navbar" id="top">
+    <a href="#top" class="logo">Steven Aziavula</a>
+
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-label="Open navigation">
+        <span></span>
+        <span></span>
+    </button>
+
+    <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#value">Value</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
+
+<main>
+    <section class="hero" id="hero">
+        <div id="particles-js"></div>
+
+        <div class="hero-copy">
+            <p class="eyebrow">Software Engineer - Backend Systems - Product Execution</p>
+            <h1>I build software that looks investable and scales like it means business.</h1>
+            <p class="hero-text">
+                I focus on clean architecture, reliable backend systems, and modern product experiences that turn ideas
+                into credible, demo-ready execution.
+            </p>
+
+            <div class="hero-buttons">
+                <a href="#projects" class="btn btn-primary">Explore Projects</a>
+                <a href="{{ url_for('download_cv') }}" class="btn btn-secondary">
+                    <span>Download CV</span>
+                    <span aria-hidden="true">&darr;</span>
+                </a>
+            </div>
+
+            <div class="hero-proof">
+                <article class="proof-card">
+                    <span class="proof-label">Core focus</span>
+                    <strong class="typing"></strong>
+                </article>
+                <article class="proof-card">
+                    <span class="proof-label">Current strengths</span>
+                    <strong>Flask, APIs, databases, product UI polish</strong>
+                </article>
+            </div>
+        </div>
+
+        <div class="hero-visual">
+            <div class="portrait-shell">
+                <div class="portrait-badge">
+                    <span class="dot"></span>
+                    Available for serious builds
+                </div>
+                <img src="{{ url_for('static', filename='images/profile.jpg') }}" alt="Portrait of Steven Aziavula">
+            </div>
+
+            <div class="signal-card signal-card-top">
+                <span>Execution Lens</span>
+                <strong>Build fast. Ship clean. Scale deliberately.</strong>
+            </div>
+
+            <div class="signal-card signal-card-bottom">
+                <span>What stands out</span>
+                <strong>Backend depth paired with visible frontend improvement.</strong>
+            </div>
+        </div>
+    </section>
+
+    <section class="proof-strip reveal">
+        <article>
+            <span class="stat-number" data-target="3">0</span>
+            <p>Years sharpening practical engineering skills</p>
+        </article>
+        <article>
+            <span class="stat-number" data-target="15">0</span>
+            <p>Projects built across backend and web products</p>
+        </article>
+        <article>
+            <span class="stat-number" data-target="8">0</span>
+            <p>Core technologies used with confidence</p>
+        </article>
+        <article>
+            <span class="stat-number" data-target="100">0</span>
+            <p>Commitment to quality, ownership, and iteration</p>
+        </article>
+    </section>
+
+    <section class="about reveal" id="about">
+        <div class="section-heading">
+            <p class="eyebrow">About</p>
+            <h2>Technical execution with product awareness.</h2>
+        </div>
+
+        <div class="about-grid">
+            <div class="about-copy">
+                <p>
+                    I am a full stack developer with a strong backend bias. My work centers on building systems that are
+                    stable, maintainable, and ready to support real product growth instead of just looking good in a demo.
+                </p>
+                <p>
+                    I care about architecture, APIs, data flow, and user experience equally enough to turn early-stage ideas
+                    into software that feels credible to founders, users, and investors.
+                </p>
+            </div>
+
+            <div class="about-panel">
+                <h3>What I optimize for</h3>
+                <ul>
+                    <li>Clear system structure and maintainable codebases</li>
+                    <li>Fast iteration without sacrificing long-term quality</li>
+                    <li>Products that communicate seriousness the moment they open</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="value reveal" id="value">
+        <div class="section-heading">
+            <p class="eyebrow">Investor Signal</p>
+            <h2>What makes this portfolio stronger than a standard developer page.</h2>
+        </div>
+
+        <div class="value-grid">
+            <article class="value-card">
+                <span>01</span>
+                <h3>Execution-first positioning</h3>
+                <p>The messaging highlights shipping capability, systems thinking, and product readiness instead of generic self-description.</p>
+            </article>
+            <article class="value-card">
+                <span>02</span>
+                <h3>Sharper visual credibility</h3>
+                <p>The interface now uses stronger layout hierarchy, better typography, layered depth, and cleaner motion.</p>
+            </article>
+            <article class="value-card">
+                <span>03</span>
+                <h3>Faster due diligence</h3>
+                <p>Key strengths, proof points, and project categories are easier to scan so visitors can judge fit quickly.</p>
+            </article>
+        </div>
+    </section>
+
+    <section class="skills reveal" id="skills">
+        <div class="section-heading">
+            <p class="eyebrow">Stack</p>
+            <h2>Tools I use to turn ideas into reliable products.</h2>
+        </div>
+
+        <div class="skills-layout">
+            <div class="skills-grid">
+                <article class="skill-card">
+                    <h3>Backend Systems</h3>
+                    <p>Python, Flask, REST APIs, authentication, service structure</p>
+                </article>
+                <article class="skill-card">
+                    <h3>Data and Logic</h3>
+                    <p>SQL, data modeling, CRUD flows, business rules, integration logic</p>
+                </article>
+                <article class="skill-card">
+                    <h3>Frontend Delivery</h3>
+                    <p>HTML, CSS, JavaScript, responsive layouts, interaction design</p>
+                </article>
+                <article class="skill-card">
+                    <h3>Developer Workflow</h3>
+                    <p>Git, debugging, refactoring, maintainability, iterative shipping</p>
+                </article>
+            </div>
+
+            <div class="skill-cloud">
+                <span>Python</span>
+                <span>Flask</span>
+                <span>JavaScript</span>
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>SQL</span>
+                <span>Git</span>
+                <span>REST APIs</span>
+            </div>
+        </div>
+    </section>
+
+    <section class="projects reveal" id="projects">
+        <div class="section-heading">
+            <p class="eyebrow">Selected Work</p>
+            <h2>Projects framed around product and engineering value.</h2>
+            <p class="section-copy">
+                The strongest portfolios reduce doubt fast. These summaries highlight architecture, user impact,
+                and why each build matters beyond the code itself.
+            </p>
+        </div>
+
+        <div class="project-filters" role="tablist" aria-label="Project filters">
+            <button class="filter-btn active" type="button" data-filter="all">All</button>
+            <button class="filter-btn" type="button" data-filter="backend">Backend</button>
+            <button class="filter-btn" type="button" data-filter="product">Product UI</button>
+            <button class="filter-btn" type="button" data-filter="systems">Systems</button>
+        </div>
+
+        <div class="projects-grid">
+            <article class="project-card reveal-card" data-category="product">
+                <div class="project-meta">
+                    <span>Flask - Frontend polish</span>
+                    <span>Personal Brand</span>
+                </div>
+                <h3>Portfolio Website</h3>
+                <p>
+                    A personal portfolio rebuilt to present stronger technical credibility, better storytelling, and a more investor-ready first impression.
+                </p>
+                <ul class="project-points">
+                    <li>Responsive one-page experience</li>
+                    <li>Interactive filtering and motion</li>
+                    <li>Clearer value communication</li>
+                </ul>
+                <a href="#top" class="project-link">Featured on this page</a>
+            </article>
+
+            <article class="project-card reveal-card" data-category="backend">
+                <div class="project-meta">
+                    <span>Flask - SQL</span>
+                    <span>API Design</span>
+                </div>
+                <h3>Task Manager API</h3>
+                <p>
+                    A RESTful backend that supports structured task workflows, database persistence, and clean CRUD operations for extensible product logic.
+                </p>
+                <ul class="project-points">
+                    <li>Endpoint-driven architecture</li>
+                    <li>Persistent storage workflows</li>
+                    <li>Scalable service foundation</li>
+                </ul>
+                <a href="#contact" class="project-link">Request walkthrough</a>
+            </article>
+
+            <article class="project-card reveal-card" data-category="systems">
+                <div class="project-meta">
+                    <span>Auth - Orders - Data</span>
+                    <span>Commerce Logic</span>
+                </div>
+                <h3>E-commerce Backend</h3>
+                <p>
+                    A backend-focused commerce system handling authentication, product flows, and order management with room for future integrations.
+                </p>
+                <ul class="project-points">
+                    <li>Core business logic handling</li>
+                    <li>Inventory and order structure</li>
+                    <li>Expandable architecture</li>
+                </ul>
+                <a href="#contact" class="project-link">Discuss implementation</a>
+            </article>
+        </div>
+    </section>
+
+    <section class="readiness reveal" id="readiness">
+        <div class="section-heading">
+            <p class="eyebrow">Public Readiness</p>
+            <h2>What a recruiter, client, or investor should understand immediately.</h2>
+        </div>
+
+        <div class="readiness-grid">
+            <article class="readiness-card">
+                <h3>Clear technical direction</h3>
+                <p>Backend architecture, APIs, and data handling are presented as core strengths instead of being buried in generic wording.</p>
+            </article>
+            <article class="readiness-card">
+                <h3>Product-minded execution</h3>
+                <p>The site shows that you can improve both system reliability and the user-facing experience around the product.</p>
+            </article>
+            <article class="readiness-card">
+                <h3>Conversion-ready structure</h3>
+                <p>Visitors can understand your value, review proof, and move to contact or CV download with less friction.</p>
+            </article>
+        </div>
+    </section>
+
+    <section class="roadmap reveal">
+        <div class="section-heading">
+            <p class="eyebrow">Approach</p>
+            <h2>How I typically move from idea to reliable product.</h2>
+        </div>
+
+        <div class="roadmap-grid">
+            <article class="roadmap-step">
+                <span>01</span>
+                <h3>Clarify the product</h3>
+                <p>Turn vague requirements into a concrete structure, user flow, and technical plan.</p>
+            </article>
+            <article class="roadmap-step">
+                <span>02</span>
+                <h3>Build the backbone</h3>
+                <p>Design APIs, data models, and system rules so the product can grow without collapsing.</p>
+            </article>
+            <article class="roadmap-step">
+                <span>03</span>
+                <h3>Refine the experience</h3>
+                <p>Polish interfaces and interaction details so the product feels credible, not improvised.</p>
+            </article>
+            <article class="roadmap-step">
+                <span>04</span>
+                <h3>Prepare for the next stage</h3>
+                <p>Leave the codebase cleaner, more maintainable, and easier to extend after launch.</p>
+            </article>
+        </div>
+    </section>
+
+    <section class="contact reveal" id="contact">
+        <div class="contact-shell">
+            <div class="contact-copy">
+                <p class="eyebrow">Contact</p>
+                <h2>If you want someone who can build the engine and improve the presentation, let's talk.</h2>
+                <p>
+                    I'm available for software engineering opportunities, backend-heavy product work, and serious portfolio or product upgrades.
+                </p>
+                <div class="contact-links">
+                    <a href="mailto:stevenaziavula14@gmail.com">Email</a>
+                    <a href="https://instagram.com/steve_azi_" target="_blank" rel="noopener noreferrer">Instagram</a>
+                    <span>GitHub and LinkedIn can be added before public launch</span>
+                </div>
+            </div>
+
+            <div class="contact-panel">
+                <a href="tel:+254702284867">+254702284867</a>
+                <a href="mailto:stevenaziavula14@gmail.com">stevenaziavula14@gmail.com</a>
+                <a href="https://instagram.com/steve_azi_" target="_blank" rel="noopener noreferrer">@steve_azi_</a>
+                <a href="{{ url_for('download_cv') }}" class="contact-cta">Download CV</a>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer class="footer">
+    <p>&copy; 2026 Steven Aziavula. Built with Flask and redesigned for stronger first impressions.</p>
+</footer>
+
+<a href="{{ url_for('download_cv') }}" class="floating-cv" aria-label="Download CV">&darr;</a>
+
+<script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>
