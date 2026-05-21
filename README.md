@@ -1,6 +1,6 @@
 # Steven Portfolio
 
-A Flask-based personal portfolio for Steven Aziavula, designed to present backend engineering strength, product execution, and a stronger public-facing first impression.
+A Flask-based personal portfolio for Steven Aziavula, focused on backend development, APIs, web interfaces, and contact information.
 
 ## Stack
 
@@ -13,12 +13,12 @@ A Flask-based personal portfolio for Steven Aziavula, designed to present backen
 ## Current Features
 
 - Responsive one-page portfolio
-- Investor-focused messaging and layout
+- Personal portfolio layout
 - Animated hero section with particles
 - Scroll reveal and stats counter interactions
 - Project filtering by category
 - Downloadable professional CV
-- SEO-ready metadata and basic structured data
+- SEO metadata and basic structured data
 
 ## Run Locally
 

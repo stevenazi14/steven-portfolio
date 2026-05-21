@@ -10,10 +10,10 @@ const projectCards = document.querySelectorAll(".project-card");
 const typingElement = document.querySelector(".typing");
 
 const typedWords = [
-    "Backend systems that stay maintainable",
-    "Product builds that feel investor-ready",
-    "Execution with strong engineering discipline",
-    "APIs and interfaces designed to scale"
+    "Flask applications",
+    "REST API development",
+    "Backend systems",
+    "Clean web interfaces"
 ];
 
 let wordIndex = 0;
