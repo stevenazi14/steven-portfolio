@@ -407,6 +407,7 @@ section {
 .value,
 .skills,
 .projects,
+.certifications,
 .roadmap,
 .contact {
     padding: 120px 0 0;
@@ -512,7 +513,8 @@ section {
 
 .value-grid,
 .roadmap-grid,
-.readiness-grid {
+.readiness-grid,
+.certification-grid {
     display: grid;
     grid-template-columns: repeat(3, minmax(0, 1fr));
     gap: 22px;
@@ -520,13 +522,15 @@ section {
 
 .value-card,
 .roadmap-step,
-.readiness-card {
+.readiness-card,
+.certification-card {
     padding: 28px;
     border-radius: var(--radius-lg);
 }
 
 .value-card h3,
 .readiness-card h3,
+.certification-card h3,
 .roadmap-step h3,
 .skill-card h3,
 .project-card h3 {
@@ -536,6 +540,7 @@ section {
 
 .value-card p,
 .readiness-card p,
+.certification-card p,
 .roadmap-step p,
 .skill-card p,
 .project-card p {
@@ -547,6 +552,39 @@ section {
     background: linear-gradient(180deg, rgba(12, 23, 42, 0.88), rgba(8, 17, 31, 0.8));
     border: 1px solid rgba(125, 211, 252, 0.14);
     box-shadow: var(--shadow);
+}
+
+.certification-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.certification-card {
+    position: relative;
+    overflow: hidden;
+    background:
+        linear-gradient(135deg, rgba(52, 211, 153, 0.12), transparent 34%),
+        rgba(10, 18, 34, 0.72);
+    border: 1px solid rgba(125, 211, 252, 0.16);
+    box-shadow: var(--shadow);
+}
+
+.certification-card::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background: linear-gradient(90deg, var(--success), var(--primary-strong), var(--accent));
+}
+
+.certification-meta {
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+    flex-wrap: wrap;
+    color: var(--muted);
+    font-size: 0.84rem;
 }
 
 .skills-grid {
@@ -766,7 +804,8 @@ section {
     .projects-grid,
     .roadmap-grid,
     .value-grid,
-    .readiness-grid {
+    .readiness-grid,
+    .certification-grid {
         grid-template-columns: repeat(2, minmax(0, 1fr));
     }
 
@@ -823,7 +862,8 @@ section {
     .projects-grid,
     .roadmap-grid,
     .value-grid,
-    .readiness-grid {
+    .readiness-grid,
+    .certification-grid {
         grid-template-columns: 1fr;
     }
 
@@ -841,6 +881,7 @@ section {
     .about-panel,
     .contact-panel,
     .value-card,
+    .certification-card,
     .project-card,
     .roadmap-step,
     .skill-card {

@@ -18,6 +18,7 @@ A Flask-based personal portfolio for Steven Aziavula, focused on backend develop
 - Scroll reveal and stats counter interactions
 - Project filtering by category
 - Downloadable professional CV
+- Downloadable cybersecurity and networking certificates
 - SEO metadata and basic structured data
 
 ## Run Locally
@@ -50,6 +51,8 @@ http://127.0.0.1:5000
 - `static/css/style.css` - Portfolio styling and responsive layout
 - `static/js/script.js` - Interactions, animations, filters, and effects
 - `files/cv.pdf` - Downloadable CV
+- `files/introduction-to-cybersecurity-certificate.pdf` - Introduction to Cybersecurity certificate
+- `files/cisco-packet-tracer-certificate.pdf` - Cisco Packet Tracer certificate
 
 ## Deployment Readiness
 

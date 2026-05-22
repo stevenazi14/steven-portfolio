@@ -51,6 +51,7 @@
         <li><a href="#value">Focus</a></li>
         <li><a href="#skills">Skills</a></li>
         <li><a href="#projects">Projects</a></li>
+        <li><a href="#certifications">Certifications</a></li>
         <li><a href="#contact">Contact</a></li>
     </ul>
 </nav>
@@ -308,6 +309,42 @@
             <article class="readiness-card">
                 <h3>Keep it maintainable</h3>
                 <p>I aim for code that can be understood later, not just code that works once.</p>
+            </article>
+        </div>
+    </section>
+
+    <section class="certifications reveal" id="certifications">
+        <div class="section-heading">
+            <p class="eyebrow">Certifications</p>
+            <h2>Cybersecurity and networking certificates.</h2>
+            <p class="section-copy">
+                I am currently building my cybersecurity knowledge. These certificates show the courses I have completed so far.
+            </p>
+        </div>
+
+        <div class="certification-grid">
+            <article class="certification-card">
+                <div class="certification-meta">
+                    <span>Cisco Networking Academy</span>
+                    <span>Completed</span>
+                </div>
+                <h3>Introduction to Cybersecurity</h3>
+                <p>
+                    Covers basic cybersecurity concepts, online safety, common threats, and the role cybersecurity plays in protecting systems and data.
+                </p>
+                <a href="{{ url_for('download_certificate', certificate_id='introduction-to-cybersecurity') }}" class="project-link">Download Certificate</a>
+            </article>
+
+            <article class="certification-card">
+                <div class="certification-meta">
+                    <span>Cisco Networking Academy</span>
+                    <span>Completed</span>
+                </div>
+                <h3>Getting Started with Cisco Packet Tracer</h3>
+                <p>
+                    Introduces Cisco Packet Tracer for building and testing simple network simulations while learning networking fundamentals.
+                </p>
+                <a href="{{ url_for('download_certificate', certificate_id='cisco-packet-tracer') }}" class="project-link">Download Certificate</a>
             </article>
         </div>
     </section>
