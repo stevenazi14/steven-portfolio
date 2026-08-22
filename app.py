@@ -5,7 +5,7 @@ from flask import Flask, jsonify, render_template, send_from_directory
 app = Flask(__name__)
 CV_DIRECTORY = os.path.join(app.root_path, "files")
 CV_FILENAME = "cv.pdf"
-CV_DOWNLOAD_NAME = "Steven_Aziavula_Professional_CV.pdf"
+CV_DOWNLOAD_NAME = "Steven_Aziavula_Midega_CV.pdf"
 CERTIFICATES = {
     "introduction-to-cybersecurity": {
         "filename": "introduction-to-cybersecurity-certificate.pdf",
