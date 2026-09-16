@@ -53,6 +53,8 @@ http://127.0.0.1:5000
 - `files/cv.pdf` - Downloadable CV
 - `files/introduction-to-cybersecurity-certificate.pdf` - Introduction to Cybersecurity certificate
 - `files/cisco-packet-tracer-certificate.pdf` - Cisco Packet Tracer certificate
+- `files/ibm-data-fundamentals-certificate.pdf` - IBM Data Fundamentals certificate
+- `files/nvidia-fundamentals-of-deep-learning-certificate.pdf` - NVIDIA Fundamentals of Deep Learning certificate
 
 ## Deployment Readiness
 

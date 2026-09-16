@@ -15,6 +15,14 @@ CERTIFICATES = {
         "filename": "cisco-packet-tracer-certificate.pdf",
         "download_name": "Steven_Aziavula_Cisco_Packet_Tracer_Certificate.pdf",
     },
+    "ibm-data-fundamentals": {
+        "filename": "ibm-data-fundamentals-certificate.pdf",
+        "download_name": "Steven_Aziavula_IBM_Data_Fundamentals_Certificate.pdf",
+    },
+    "nvidia-fundamentals-of-deep-learning": {
+        "filename": "nvidia-fundamentals-of-deep-learning-certificate.pdf",
+        "download_name": "Steven_Aziavula_NVIDIA_Fundamentals_of_Deep_Learning_Certificate.pdf",
+    },
 }
 
 
